@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+}
+
+table{
+    background-color: rgb(15, 15, 15);
+    border-color: rgb(255, 183, 100);
+    border-radius: 5px;
+}
+
+.hasil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.angka input{
+    height: 30px;
+    width: 110px;
+    background-color: inherit;
+    color: white;
+    border-color: white;
+    font-size: 21px;
+    appearance: none;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1.5px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+select{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1.5px;
+    appearance: none;
+
+}
+
+select:focus{
+    background-color: rgb(15, 15, 15);
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1.5px;
+}

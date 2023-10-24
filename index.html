@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kalkulator Sederhana</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <table border="3" cellspacing="0" cellpadding="15">
+            <tr>
+                <th colspan="4" class="hasil" id="hasil">0</th>
+            </tr>
+            <tr>
+                <td class="angka">
+                    <input type="number" name="angka1" id="angka1" value="0" />
+                </td>
+                <td>
+                    <select name="" id="operasi">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="×">×</option>
+                        <option value="÷">÷</option>
+                    </select>
+                </td>
+                <td class="angka">
+                    <input type="number" name="angka2" id="angka2" value="0" />
+                </td>
+                <td><button onclick="jumlah()">=</button></td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
